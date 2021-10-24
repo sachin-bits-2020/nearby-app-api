@@ -26,7 +26,7 @@ app.use("/api/geo-data", geoRoutes);
 
 mongoose
   .connect(
-    "mongodb+srv://nearby:123456near@cluster0.a669d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb+srv://nyuihjknear@cluster0.a669d.mongodb.net/?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
